@@ -1,0 +1,64 @@
+/* Room Details Page Styles */
+.room-details-container {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f5fa;
+    min-height: 100vh;
+  }
+  
+  .room-details-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+  }
+  
+  .room-details-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .room-details-content {
+    padding: 30px;
+  }
+  
+  .room-details-title {
+    font-size: 32px;
+    color: #4a4aff;
+    margin-bottom: 20px;
+  }
+  
+  .room-details-description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .room-details-price {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .room-details-button {
+    padding: 12px 20px;
+    background-color: #4a4aff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .room-details-button:hover {
+    background-color: #3737f5;
+  }
+  
